@@ -18,8 +18,15 @@
 - `vue-pinia-store`：维护 Pinia Store、跨页面状态和异步 action。
 - `admin-crud-page`：生成后台列表、搜索、表格、分页、弹窗和操作流。
 - `admin-form`：生成后台表单、编辑弹窗、校验规则和提交逻辑。
+- `request-client`：维护请求客户端、拦截器、鉴权 Header、统一错误和响应解包。
+- `admin-list-page`：生成后台列表页、搜索区、表格、分页、loading 和刷新流。
+- `search-filter-form`：维护搜索筛选表单、默认值、重置、折叠展开和查询参数转换。
+- `data-table`：维护表格列、操作列、选择列、排序、空状态和自定义渲染。
+- `pagination-flow`：维护分页请求、页码回退、搜索回到第一页和 total 同步。
+- `form-validation`：维护表单校验规则、自定义 validator、异步校验和错误定位。
+- `dialog-form`：实现弹窗表单的打开关闭、props 回显、emit 提交和状态清理。
 
-## 建议新增的前端 Skills
+## 前端 Skills 候选清单
 
 ### 工程初始化与项目规范
 
@@ -102,9 +109,10 @@
 
 ## 优先级建议
 
-- 第一批：`request-client`、`admin-list-page`、`search-filter-form`、`data-table`、`pagination-flow`、`form-validation`、`dialog-form`。
+- 第一批（已创建）：`request-client`、`admin-list-page`、`search-filter-form`、`data-table`、`pagination-flow`、`form-validation`、`dialog-form`。
 - 第二批：`router-guard-auth`、`permission-routing`、`layout-shell`、`loading-empty-error-state`、`import-export`、`upload-file`。
 - 第三批：`performance-optimization`、`unit-test-component`、`e2e-user-flow`、`security-frontend`、`observability-frontend`。
+- 第四批：`page-skeleton`、`error-pages`、`request-error-handling`、`admin-detail-page`、`batch-actions`、`feedback-message`、`mock-data-contract`。
 
 ## 单个 Skill 模板
 
