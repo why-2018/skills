@@ -25,6 +25,30 @@
 - `pagination-flow`：维护分页请求、页码回退、搜索回到第一页和 total 同步。
 - `form-validation`：维护表单校验规则、自定义 validator、异步校验和错误定位。
 - `dialog-form`：实现弹窗表单的打开关闭、props 回显、emit 提交和状态清理。
+- `router-guard-auth`：实现登录态校验、路由守卫、Token 过期和跳转回源页面。
+- `permission-routing`：实现动态菜单、权限路由、按钮权限、角色差异和无权限回退。
+- `layout-shell`：实现后台主布局、顶部栏、侧边栏、菜单、面包屑和页签。
+- `loading-empty-error-state`：统一 loading、空数据、错误重试、骨架屏和局部刷新状态。
+- `import-export`：实现 Excel/CSV 导入导出、模板下载、文件校验和错误明细。
+- `upload-file`：实现文件上传、图片上传、大小类型限制、预览、删除和失败重试。
+- `performance-optimization`：排查首屏慢、重复渲染、大列表卡顿、请求瀑布和 bundle 体积。
+- `unit-test-component`：为组件、组合函数、Store 和工具函数补充单元测试。
+- `e2e-user-flow`：为登录、CRUD、表单提交、权限跳转等关键链路补充端到端测试。
+- `security-frontend`：检查 XSS、开放跳转、敏感信息暴露、Token 存储和上传安全。
+- `observability-frontend`：接入前端错误监控、性能指标、用户行为日志和接口失败追踪。
+- `page-skeleton`：快速生成标准页面骨架，包括标题区、操作区、内容区和基础状态。
+- `error-pages`：实现 403、404、500、空权限、网络错误等异常页面和回退导航。
+- `request-error-handling`：统一处理接口失败、业务错误码、登录失效、重试、用户提示和日志。
+- `admin-detail-page`：实现后台详情页、分组展示、状态标签、关联数据和返回逻辑。
+- `batch-actions`：实现批量删除、批量启停、批量导出、选择校验和二次确认。
+- `feedback-message`：规范成功、失败、警告、确认弹窗、通知和表单错误提示。
+- `mock-data-contract`：维护 mock 数据、接口契约、测试夹具和前后端联调占位数据。
+- `project-bootstrap`：初始化前端项目结构、基础目录、入口文件、全局样式和默认配置。
+- `env-config`：维护 `.env`、构建环境变量、接口地址和开发/测试/生产环境差异。
+- `vite-config`：维护 Vite 插件、代理、构建配置、静态资源路径和开发服务器配置。
+- `typescript-strictness`：补充和修复 TypeScript 类型、接口模型、泛型和严格模式错误。
+- `path-alias-config`：配置和排查路径别名，保持 `vite.config.ts`、`tsconfig`、IDE 解析一致。
+- `lint-format-build`：处理 ESLint、Prettier、Stylelint、构建失败和格式化规则冲突。
 
 ## 前端 Skills 候选清单
 
@@ -110,9 +134,13 @@
 ## 优先级建议
 
 - 第一批（已创建）：`request-client`、`admin-list-page`、`search-filter-form`、`data-table`、`pagination-flow`、`form-validation`、`dialog-form`。
-- 第二批：`router-guard-auth`、`permission-routing`、`layout-shell`、`loading-empty-error-state`、`import-export`、`upload-file`。
-- 第三批：`performance-optimization`、`unit-test-component`、`e2e-user-flow`、`security-frontend`、`observability-frontend`。
-- 第四批：`page-skeleton`、`error-pages`、`request-error-handling`、`admin-detail-page`、`batch-actions`、`feedback-message`、`mock-data-contract`。
+- 第二批（已创建）：`router-guard-auth`、`permission-routing`、`layout-shell`、`loading-empty-error-state`、`import-export`、`upload-file`。
+- 第三批（2026-06-15 已创建）：`performance-optimization`、`unit-test-component`、`e2e-user-flow`、`security-frontend`、`observability-frontend`。
+- 第四批（2026-06-15 已创建）：`page-skeleton`、`error-pages`、`request-error-handling`、`admin-detail-page`、`batch-actions`、`feedback-message`、`mock-data-contract`。
+- 第五批（2026-06-15 已创建）：`project-bootstrap`、`env-config`、`vite-config`、`typescript-strictness`、`path-alias-config`、`lint-format-build`。
+- 第六批（下周建议）：`dynamic-form`、`multi-step-form`、`inline-edit-table`、`date-time-range`、`rich-text-editor`、`cascader-tree-select`。
+- 第七批（下周建议）：`component-extraction`、`modal-drawer-flow`、`theme-dark-mode`、`i18n-frontend`、`accessibility-ui`、`drag-drop-sortable`、`chart-dashboard`。
+- 第八批（下周建议）：`dependency-management`、`cache-and-refresh`、`optimistic-update`、`websocket-sse`、`code-splitting`、`image-asset-optimization`、`release-checklist`。
 
 ## 单个 Skill 模板
 
