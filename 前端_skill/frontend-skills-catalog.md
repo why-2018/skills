@@ -1,4 +1,4 @@
-# 前端 Skills 常用场景清单
+﻿# 前端 Skills 常用场景清单
 
 这个文件用于规划前端项目里最常用、最值得沉淀成 Cursor Skill 的场景。后续可以按优先级把其中某一项拆成独立目录，例如 `.cursor/skills/vue-api-module/SKILL.md`。
 
@@ -138,9 +138,12 @@
 - 第三批（2026-06-15 已创建）：`performance-optimization`、`unit-test-component`、`e2e-user-flow`、`security-frontend`、`observability-frontend`。
 - 第四批（2026-06-15 已创建）：`page-skeleton`、`error-pages`、`request-error-handling`、`admin-detail-page`、`batch-actions`、`feedback-message`、`mock-data-contract`。
 - 第五批（2026-06-15 已创建）：`project-bootstrap`、`env-config`、`vite-config`、`typescript-strictness`、`path-alias-config`、`lint-format-build`。
-- 第六批（下周建议）：`dynamic-form`、`multi-step-form`、`inline-edit-table`、`date-time-range`、`rich-text-editor`、`cascader-tree-select`。
-- 第七批（下周建议）：`component-extraction`、`modal-drawer-flow`、`theme-dark-mode`、`i18n-frontend`、`accessibility-ui`、`drag-drop-sortable`、`chart-dashboard`。
-- 第八批（下周建议）：`dependency-management`、`cache-and-refresh`、`optimistic-update`、`websocket-sse`、`code-splitting`、`image-asset-optimization`、`release-checklist`。
+- 第六批（2026-06-25 已创建）：`dynamic-form`、`multi-step-form`、`inline-edit-table`、`date-time-range`、`rich-text-editor`、`cascader-tree-select`。
+- 第七批（2026-06-25 已创建）：`component-extraction`、`modal-drawer-flow`、`theme-dark-mode`、`i18n-frontend`、`accessibility-ui`、`drag-drop-sortable`、`chart-dashboard`。
+- 第八批（2026-06-25 已创建）：`dependency-management`、`cache-and-refresh`、`optimistic-update`、`websocket-sse`、`code-splitting`、`image-asset-optimization`、`release-checklist`。
+- 第九批（下周建议）：`frontend-code-review`、`responsive-page`、`breadcrumb-tabs`。
+- 第十批（下周建议）：`api-module`、`pinia-store`、`admin-crud-dialog`、`tree-table-management`。
+- 第十一批（下周建议）：回看已创建 Skills，补充跨技能触发词、重复项合并建议和项目落地示例。
 
 ## 单个 Skill 模板
 
@@ -164,3 +167,4 @@ description: 简短说明该 Skill 做什么。Use when the user asks to handle 
 - 复用已有工具和组件，不为单个页面发明新封装。
 - 涉及用户操作时必须考虑 loading、失败反馈和重复提交。
 ```
+
